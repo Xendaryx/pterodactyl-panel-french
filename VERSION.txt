@@ -1,0 +1,23 @@
+PACK DE TRADUCTION FRANÇAISE — PTERODACTYL PANEL
+
+Version compatible : Pterodactyl Panel 1.15.1
+Langue : Français (fr-FR)
+Date du pack : 21 septembre 2026
+
+Cette traduction est non officielle.
+
+Pterodactyl reste soumis à sa licence d'origine.
+La licence officielle est incluse dans ce pack.
+
+Ce pack ne contient volontairement :
+- aucun fichier .env ;
+- aucun mot de passe ;
+- aucune clé API ;
+- aucun jeton ;
+- aucun certificat privé ;
+- aucune configuration propre à un serveur ;
+- aucune personnalisation ou identité visuelle privée.
+
+IMPORTANT :
+Ce pack a été préparé et testé spécifiquement avec Pterodactyl Panel 1.15.1.
+Une mise à jour ultérieure de Pterodactyl peut remplacer certains fichiers traduits.

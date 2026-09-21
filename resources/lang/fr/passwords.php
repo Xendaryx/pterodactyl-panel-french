@@ -1,0 +1,9 @@
+<?php
+
+return [
+    'password' => 'Le mot de passe doit contenir au moins six caractères et correspondre à la confirmation.',
+    'reset' => 'Votre mot de passe a été réinitialisé !',
+    'sent' => 'Le lien de réinitialisation de votre mot de passe vous a été envoyé par e-mail !',
+    'token' => 'Ce jeton de réinitialisation du mot de passe est invalide.',
+    'user' => 'Aucun utilisateur ne correspond à cette adresse e-mail.',
+];
