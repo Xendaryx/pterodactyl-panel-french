@@ -60,7 +60,7 @@
                         <div class="col-md-12">
                             <label for="pShortModal" class="form-label">Code court</label>
                             <input type="text" name="short" id="pShortModal" class="form-control" />
-                            <p class="text-muted small">Un identifiant court permettant de distinguer cet emplacement des autres. Il doit contenir entre 1 et 60 caractères, par exemple <code>fr.example.01</code>.</p>
+                            <p class="text-muted small">Un identifiant court permettant de distinguer cet emplacement des autres. Il doit contenir entre 1 et 60 caractères, par exemple <code>fr.xaryon.01</code>.</p>
                         </div>
                         <div class="col-md-12">
                             <label for="pLongModal" class="form-label">Description</label>

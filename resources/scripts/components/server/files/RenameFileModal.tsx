@@ -69,7 +69,7 @@ const RenameFileModal = ({ files, useMoveTerminology, ...props }: OwnProps) => {
                                     label={'Nom du fichier'}
                                     description={
                                         useMoveTerminology
-                                            ? 'Enter the new name and directory of this file or folder, relative to the current directory.'
+                                            ? 'Saisissez le nouveau nom et le répertoire de ce fichier ou dossier, par rapport au répertoire actuel.'
                                             : undefined
                                     }
                                     autoFocus
@@ -81,7 +81,7 @@ const RenameFileModal = ({ files, useMoveTerminology, ...props }: OwnProps) => {
                         </div>
                         {useMoveTerminology && (
                             <p css={tw`text-xs mt-2 text-neutral-400`}>
-                                <strong css={tw`text-neutral-200`}>New location:</strong>
+                                <strong css={tw`text-neutral-200`}>Nouvel emplacement :</strong>
                                 &nbsp;/home/container/{join(directory, values.name).replace(/^(\.\.\/|\/)+/, '')}
                             </p>
                         )}

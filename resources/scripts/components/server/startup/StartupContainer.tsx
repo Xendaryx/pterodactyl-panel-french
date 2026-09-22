@@ -80,7 +80,7 @@ const StartupContainer = () => {
         !error || (error && isValidating) ? (
             <Spinner centered size={Spinner.Size.LARGE} />
         ) : (
-            <ServerError title={'Oops!'} message={httpErrorToHuman(error)} onRetry={() => mutate()} />
+            <ServerError title={'Oups !'} message={httpErrorToHuman(error)} onRetry={() => mutate()} />
         )
     ) : (
         <ServerContentBlock title={'Paramètres de démarrage'} showFlashKey={'startup:image'}>
@@ -90,7 +90,7 @@ const StartupContainer = () => {
                         <p css={tw`font-mono bg-neutral-900 rounded py-2 px-4`}>{data.invocation}</p>
                     </div>
                 </TitledGreyBox>
-                <TitledGreyBox title={'Docker Image'} css={tw`flex-1 lg:flex-none lg:w-1/3 mt-8 md:mt-0 md:ml-10`}>
+                <TitledGreyBox title={'Image Docker'} css={tw`flex-1 lg:flex-none lg:w-1/3 mt-8 md:mt-0 md:ml-10`}>
                     {Object.keys(data.dockerImages).length > 1 && !isCustomImage ? (
                         <>
                             <InputSpinner visible={loading}>

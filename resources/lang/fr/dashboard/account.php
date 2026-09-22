@@ -11,18 +11,18 @@ return [
         'updated' => 'Votre mot de passe a été mis à jour.',
     ],
     'two_factor' => [
-        'button' => 'Configure 2-Factor Authentication',
+        'button' => 'Configurer l’authentification à deux facteurs',
         'disabled' => 'L’authentification à deux facteurs a été désactivée sur votre compte. Aucun jeton ne vous sera désormais demandé lors de la connexion.',
         'enabled' => 'L’authentification à deux facteurs a été activée sur votre compte ! Désormais, lors de la connexion, vous devrez fournir le code généré par votre appareil.',
         'invalid' => 'Le jeton fourni n’était pas valide.',
         'setup' => [
-            'title' => 'Setup two-factor authentication',
-            'help' => 'Can\'t scan the code? Enter the code below into your application:',
-            'field' => 'Enter token',
+            'title' => 'Configurer l’authentification à deux facteurs',
+            'help' => 'Impossible de scanner le code ? Saisissez le code ci-dessous dans votre application :',
+            'field' => 'Saisissez le code',
         ],
         'disable' => [
             'title' => 'Désactiver l’authentification à deux facteurs',
-            'field' => 'Enter token',
+            'field' => 'Saisissez le code',
         ],
     ],
 ];

@@ -32,17 +32,17 @@ const ModalContent = ({ ...props }: RequiredModalProps) => {
                 <Field
                     name={'name'}
                     label={'Nom de la sauvegarde'}
-                    description={'If provided, the name that should be used to reference this backup.'}
+                    description={'Si renseigné, ce nom sera utilisé pour identifier cette sauvegarde.'}
                 />
                 <div css={tw`mt-6`}>
                     <FormikFieldWrapper
                         name={'ignored'}
-                        label={'Ignored Files & Directories'}
+                        label={'Fichiers et dossiers ignorés'}
                         description={`
-                            Enter the files or folders to ignore while generating this backup. Leave blank to use
-                            the contents of the .pteroignore file in the root of the server directory if present.
-                            Wildcard matching of files and folders is supported in addition to negating a rule by
-                            prefixing the path with an exclamation point.
+                            Saisissez les fichiers ou dossiers à ignorer lors de la création de cette sauvegarde. Laissez ce
+                            champ vide pour utiliser le contenu du fichier .pteroignore situé à la racine du serveur, s’il existe.
+                            Les caractères génériques sont pris en charge pour les fichiers et dossiers. Une règle peut également
+                            être inversée en préfixant le chemin par un point d’exclamation.
                         `}
                     >
                         <FormikField as={Textarea} name={'ignored'} rows={6} />
@@ -52,14 +52,14 @@ const ModalContent = ({ ...props }: RequiredModalProps) => {
                     <div css={tw`mt-6 bg-neutral-700 border border-neutral-800 shadow-inner p-4 rounded`}>
                         <FormikSwitch
                             name={'isLocked'}
-                            label={'Locked'}
-                            description={'Prevents this backup from being deleted until explicitly unlocked.'}
+                            label={'Verrouillée'}
+                            description={'Empêche la suppression de cette sauvegarde tant qu’elle n’est pas explicitement déverrouillée.'}
                         />
                     </div>
                 </Can>
                 <div css={tw`flex justify-end mt-6`}>
                     <Button type={'submit'} disabled={isSubmitting}>
-                        Start backup
+                        Créer la sauvegarde
                     </Button>
                 </div>
             </Form>

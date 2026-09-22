@@ -32,7 +32,7 @@ export default () => {
     return (
         <PageContentBlock title={'Aperçu du compte'}>
             {state?.twoFactorRedirect && (
-                <MessageBox title={'2-Factor Required'} type={'error'}>
+                <MessageBox title={'Authentification à deux facteurs requise'} type={'error'}>
                     Votre compte doit avoir l’authentification à deux facteurs activée pour continuer.
                 </MessageBox>
             )}
@@ -44,7 +44,7 @@ export default () => {
                 <ContentBox css={tw`mt-8 sm:mt-0 sm:ml-8`} title={'Modifier l’adresse e-mail'} showFlashes={'account:email'}>
                     <UpdateEmailAddressForm />
                 </ContentBox>
-                <ContentBox css={tw`md:ml-8 mt-8 md:mt-0`} title={'Two-Step Verification'}>
+                <ContentBox css={tw`md:ml-8 mt-8 md:mt-0`} title={'Vérification en deux étapes'}>
                     <ConfigureTwoFactorForm />
                 </ContentBox>
             </Container>

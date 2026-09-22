@@ -45,7 +45,7 @@ export default ({ onFileNamed, onDismissed, ...props }: Props) => {
                             id={'fileName'}
                             name={'fileName'}
                             label={'Nom du fichier'}
-                            description={'Enter the name that this file should be saved as.'}
+                            description={'Saisissez le nom sous lequel ce fichier doit être enregistré.'}
                             autoFocus
                         />
                         <div css={tw`mt-6 text-right`}>

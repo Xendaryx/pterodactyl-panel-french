@@ -47,7 +47,7 @@ export default () => {
         requestPasswordResetEmail(email, token)
             .then((response) => {
                 resetForm();
-                addFlash({ type: 'success', title: 'Success', message: response });
+                addFlash({ type: 'success', title: 'Succès', message: response });
             })
             .catch((error) => {
                 console.error(error);
@@ -67,8 +67,8 @@ export default () => {
             initialValues={{ email: '' }}
             validationSchema={object().shape({
                 email: string()
-                    .email('A valid email address must be provided to continue.')
-                    .required('A valid email address must be provided to continue.'),
+                    .email('Une adresse e-mail valide doit être renseignée pour continuer.')
+                    .required('Une adresse e-mail valide doit être renseignée pour continuer.'),
             })}
         >
             {({ isSubmitting, setSubmitting, submitForm }) => (

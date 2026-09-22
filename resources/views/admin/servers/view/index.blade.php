@@ -82,7 +82,7 @@
                                     @endif
                                     /
                                     @if($server->swap === 0)
-                                        <code data-toggle="tooltip" data-placement="top" title="Espace d’échange">Not Set</code>
+                                        <code data-toggle="tooltip" data-placement="top" title="Espace d’échange">Non défini</code>
                                     @elseif($server->swap === -1)
                                         <code data-toggle="tooltip" data-placement="top" title="Espace d’échange">Illimité</code>
                                     @else

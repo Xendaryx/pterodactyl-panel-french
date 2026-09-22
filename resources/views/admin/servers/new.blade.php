@@ -177,7 +177,7 @@
                     </div>
 
                     <div class="form-group col-xs-6">
-                        <label for="pSwap">Swap</label>
+                        <label for="pSwap">Mémoire d’échange</label>
 
                         <div class="input-group">
                             <input type="text" id="pSwap" name="swap" class="form-control" value="{{ old('swap', 0) }}" />

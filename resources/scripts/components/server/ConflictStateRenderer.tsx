@@ -14,7 +14,7 @@ export default () => {
 
     return status === 'installing' || status === 'install_failed' || status === 'reinstall_failed' ? (
         <ScreenBlock
-            title={'Running Installer'}
+            title={'Installation en cours'}
             image={ServerInstallSvg}
             message={'Votre serveur devrait être prêt prochainement. Veuillez réessayer dans quelques minutes.'}
         />
@@ -26,7 +26,7 @@ export default () => {
         />
     ) : isNodeUnderMaintenance ? (
         <ScreenBlock
-            title={'Node under Maintenance'}
+            title={'Nœud en maintenance'}
             image={ServerErrorSvg}
             message={'Le nœud de ce serveur est actuellement en maintenance.'}
         />

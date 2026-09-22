@@ -8,7 +8,7 @@ Ce projet fournit une traduction française étendue du Panel Pterodactyl, inclu
 
 **Pterodactyl Panel : 1.15.1**
 
-**Version de la traduction : v1.15.1-fr1**
+**Version de la traduction : v1.15.1-fr2**
 
 ➡️ [Télécharger la dernière version](https://github.com/Xendaryx/pterodactyl-panel-french/releases/latest)
 
@@ -56,9 +56,9 @@ Le pack a été testé sur une installation propre de **Pterodactyl Panel 1.15.1
 
 ## 🔐 Intégrité du téléchargement
 
-SHA-256 de `Pterodactyl-1.15.1-FR.zip` :
+SHA-256 de `Pterodactyl-1.15.1-FR-v1.15.1-fr2.zip` :
 
-`ec77e088ca1b4b05e0f545f8c3daf561fc90402532d016ff68ff82ed08c7e93e`
+`3bae1f8211d4aae4022e340cb943cc2a98f266635ed9e842e28e6e72c9fe1a21`
 
 ## 🐛 Signaler un problème
 

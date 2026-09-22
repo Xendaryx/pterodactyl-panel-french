@@ -57,7 +57,7 @@
                     <div class="form-group">
                         <label for="pFQDN" class="form-label">FQDN</label>
                         <input type="text" name="fqdn" id="pFQDN" class="form-control" value="{{ old('fqdn') }}"/>
-                        <p class="text-muted small">Saisissez le nom de domaine (par exemple <code>node.example.com</code>) utilisé pour se connecter au daemon. Une adresse IP peut être utilisée <em>uniquement</em> si SSL n’est pas activé pour ce nœud.</p>
+                        <p class="text-muted small">Saisissez le nom de domaine (par exemple <code>node.xaryon-studio.fr</code>) utilisé pour se connecter au daemon. Une adresse IP peut être utilisée <em>uniquement</em> si SSL n’est pas activé pour ce nœud.</p>
                     </div>
                     <div class="form-group">
                         <label class="form-label">Communication via SSL</label>

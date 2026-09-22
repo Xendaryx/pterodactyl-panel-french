@@ -7,7 +7,7 @@
 @section('content-header')
     <h1>Nouveau Nid<small>Configurez un nouveau Nid à déployer sur tous les Nœuds.</small></h1>
     <ol class="breadcrumb">
-        <li><a href="{{ route('admin.index') }}">Admin</a></li>
+        <li><a href="{{ route('admin.index') }}">Administration</a></li>
         <li><a href="{{ route('admin.nests') }}">Nids</a></li>
         <li class="active">Nouveau</li>
     </ol>

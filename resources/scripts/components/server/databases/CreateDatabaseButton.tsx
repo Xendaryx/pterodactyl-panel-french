@@ -25,7 +25,7 @@ const schema = object().shape({
             /^[\w\-.]{3,48}$/,
             'Le nom de la base de données ne doit contenir que des caractères alphanumériques, des tirets bas, des tirets et/ou des points.'
         ),
-    connectionsFrom: string().matches(/^[\w\-/.%:]+$/, 'A valid host address must be provided.'),
+    connectionsFrom: string().matches(/^[\w\-/.%:]+$/, 'Une adresse d’hôte valide doit être renseignée.'),
 });
 
 export default () => {
@@ -76,16 +76,16 @@ export default () => {
                                 id={'database_name'}
                                 name={'databaseName'}
                                 label={'Nom de la base de données'}
-                                description={'A descriptive name for your database instance.'}
+                                description={'Un nom descriptif pour cette base de données.'}
                             />
                             <div css={tw`mt-6`}>
                                 <Field
                                     type={'string'}
                                     id={'connections_from'}
                                     name={'connectionsFrom'}
-                                    label={'Connections From'}
+                                    label={'Connexions autorisées depuis'}
                                     description={
-                                        'Where connections should be allowed from. Leave blank to allow connections from anywhere.'
+                                        'Indiquez les adresses depuis lesquelles les connexions sont autorisées. Laissez vide pour autoriser les connexions depuis n’importe où.'
                                     }
                                 />
                             </div>

@@ -65,7 +65,7 @@ const EulaModalFeature = () => {
             showSpinnerOverlay={loading}
         >
             <FlashMessageRender key={'feature:eula'} css={tw`mb-4`} />
-            <h2 css={tw`text-2xl mb-4 text-neutral-100`}>Accept Minecraft&reg; EULA</h2>
+            <h2 css={tw`text-2xl mb-4 text-neutral-100`}>Accepter le CLUF Minecraft&reg;</h2>
             <p css={tw`text-neutral-200`}>
                 En cliquant sur {'"J’accepte"'} ci-dessous, vous acceptez les conditions du&nbsp;
                 <a
@@ -74,7 +74,7 @@ const EulaModalFeature = () => {
                     rel={'noreferrer noopener'}
                     href='https://www.minecraft.net/eula'
                 >
-                    Minecraft&reg; EULA
+                    CLUF Minecraft&reg;
                 </a>
                 .
             </p>

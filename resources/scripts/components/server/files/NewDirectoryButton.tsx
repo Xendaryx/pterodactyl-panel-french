@@ -21,7 +21,7 @@ interface Values {
 }
 
 const schema = object().shape({
-    directoryName: string().required('A valid directory name must be provided.'),
+    directoryName: string().required('Un nom de dossier valide doit être renseigné.'),
 });
 
 const displayNameForDirectory = (name: string): string =>

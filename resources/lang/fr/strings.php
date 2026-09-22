@@ -91,5 +91,5 @@ return [
     'enable' => 'Activer',
     'disable' => 'Désactiver',
     'save' => 'Enregistrer',
-    'copyright' => '&copy; :year Pterodactyl',
+    'copyright' => '&copy; :year Xaryon Studio — Propulsé par Pterodactyl',
 ];

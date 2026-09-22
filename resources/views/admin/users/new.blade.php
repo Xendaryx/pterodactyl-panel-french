@@ -7,7 +7,7 @@
 @section('content-header')
     <h1>Créer un utilisateur<small>Ajouter un nouvel utilisateur au système.</small></h1>
     <ol class="breadcrumb">
-        <li><a href="{{ route('admin.index') }}">Admin</a></li>
+        <li><a href="{{ route('admin.index') }}">Administration</a></li>
         <li><a href="{{ route('admin.users') }}">Utilisateurs</a></li>
         <li class="active">Créer</li>
     </ol>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="box-body">
                     <div class="form-group">
-                        <label for="email" class="control-label">Email</label>
+                        <label for="email" class="control-label">E-mail</label>
                         <div>
                             <input type="text" autocomplete="off" name="email" value="{{ old('email') }}" class="form-control" />
                         </div>

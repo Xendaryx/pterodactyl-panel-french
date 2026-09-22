@@ -7,7 +7,7 @@
 @section('content-header')
     <h1>{{ $egg->name }}<small>Gestion des variables de cet Egg.</small></h1>
     <ol class="breadcrumb">
-        <li><a href="{{ route('admin.index') }}">Admin</a></li>
+        <li><a href="{{ route('admin.index') }}">Administration</a></li>
         <li><a href="{{ route('admin.nests') }}">Nids</a></li>
         <li><a href="{{ route('admin.nests.view', $egg->nest->id) }}">{{ $egg->nest->name }}</a></li>
         <li><a href="{{ route('admin.nests.egg.view', $egg->id) }}">{{ $egg->name }}</a></li>

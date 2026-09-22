@@ -69,7 +69,7 @@
                     <div class="form-group">
                         <label for="pName" class="form-label">Nom</label>
                         <input type="text" name="name" id="pName" class="form-control" />
-                        <p class="text-muted small">Un identifiant court permettant de distinguer cet hôte des autres. Il doit contenir entre 1 et 60 caractères, par exemple <code>fr.example.db1</code>.</p>
+                        <p class="text-muted small">Un identifiant court permettant de distinguer cet hôte des autres. Il doit contenir entre 1 et 60 caractères, par exemple <code>fr.xaryon.db1</code>.</p>
                     </div>
                     <div class="row">
                         <div class="col-md-6">

@@ -6,7 +6,7 @@
 @endsection
 
 @section('content-header')
-    <h1>Paramètres du panel<small>Configurez le panel selon vos besoins.</small></h1>
+    <h1>Paramètres du panel<small>Configurez Xaryon Studio selon vos besoins.</small></h1>
     <ol class="breadcrumb">
         <li><a href="{{ route('admin.index') }}">Administration</a></li>
         <li class="active">Paramètres</li>

@@ -77,7 +77,7 @@ export default {
         {
             path: '/files',
             permission: 'file.*',
-            name: 'Files',
+            name: 'Fichiers',
             component: FileManagerContainer,
         },
         {
@@ -89,13 +89,13 @@ export default {
         {
             path: '/databases',
             permission: 'database.*',
-            name: 'Databases',
+            name: 'Bases de données',
             component: DatabasesContainer,
         },
         {
             path: '/schedules',
             permission: 'schedule.*',
-            name: 'Schedules',
+            name: 'Planifications',
             component: ScheduleContainer,
         },
         {
@@ -107,13 +107,13 @@ export default {
         {
             path: '/users',
             permission: 'user.*',
-            name: 'Users',
+            name: 'Utilisateurs',
             component: UsersContainer,
         },
         {
             path: '/backups',
             permission: 'backup.*',
-            name: 'Backups',
+            name: 'Sauvegardes',
             component: BackupContainer,
         },
         {

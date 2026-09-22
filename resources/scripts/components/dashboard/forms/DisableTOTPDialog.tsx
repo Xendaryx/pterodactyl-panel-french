@@ -68,5 +68,5 @@ const DisableTOTPDialog = () => {
 
 export default asDialog({
     title: 'Désactiver la vérification en deux étapes',
-    description: 'Disabling two-step verification will make your account less secure.',
+    description: 'La désactivation de la vérification en deux étapes rendra votre compte moins sécurisé.',
 })(DisableTOTPDialog);

@@ -22,7 +22,7 @@ trait AvailableLanguages
             $value = $localize ? $this->getIsoInstance()->nativeByCode1($code) : $this->getIsoInstance()->languageByCode1($code);
 
             if ($code === 'fr') {
-                return [$code => 'Français'];
+                return [$code => 'Français — By Xendaryx'];
             }
 
             return [$code => title_case($value)];

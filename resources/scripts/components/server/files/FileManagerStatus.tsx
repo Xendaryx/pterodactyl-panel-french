@@ -89,7 +89,7 @@ export default () => {
     return (
         <>
             {count > 0 && (
-                <Tooltip content={`${count} files are uploading, click to view`}>
+                <Tooltip content={`${count} fichier${count > 1 ? 's' : ''} en cours de téléversement, cliquez pour afficher`}>
                     <button
                         className={'flex items-center justify-center w-10 h-10'}
                         onClick={() => (open.value = true)}

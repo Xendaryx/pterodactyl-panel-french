@@ -25,7 +25,7 @@
             {!! Theme::css('vendor/adminlte/colors/skin-blue.min.css?t={cache-version}') !!}
             {!! Theme::css('vendor/sweetalert/sweetalert.min.css?t={cache-version}') !!}
             {!! Theme::css('vendor/animate/animate.min.css?t={cache-version}') !!}
-            {!! Theme::css('css/pterodactyl.css') !!}
+            {!! Theme::css('css/pterodactyl.css?t=xaryon-20260920-1') !!}
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
@@ -159,7 +159,7 @@
                     <strong><i class="fa fa-fw {{ $appIsGit ? 'fa-git-square' : 'fa-code-fork' }}"></i></strong> {{ $appVersion }}<br />
                     <strong><i class="fa fa-fw fa-clock-o"></i></strong> {{ round(microtime(true) - LARAVEL_START, 3) }}s
                 </div>
-                &copy; {{ date('Y') }} Pterodactyl — Propulsé par <a href="https://pterodactyl.io/" target="_blank" rel="noopener noreferrer">Pterodactyl</a>.
+                &copy; {{ date('Y') }} Xaryon Studio — Gestionnaire de serveurs · Propulsé par <a href="https://pterodactyl.io/" target="_blank" rel="noopener noreferrer">Pterodactyl</a>.
             </footer>
         </div>
         @section('footer-scripts')
@@ -183,12 +183,12 @@
 
                         var that = this;
                         swal({
-                            title: 'Do you want to log out?',
+                            title: 'Voulez-vous vraiment vous déconnecter ?',
                             type: 'warning',
                             showCancelButton: true,
                             confirmButtonColor: '#d9534f',
                             cancelButtonColor: '#d33',
-                            confirmButtonText: 'Log out'
+                            confirmButtonText: 'Se déconnecter'
                         }, function () {
                              $.ajax({
                                 type: 'POST',

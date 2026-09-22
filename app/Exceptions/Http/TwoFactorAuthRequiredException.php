@@ -1,0 +1,18 @@
+<?php
+
+namespace Pterodactyl\Exceptions\Http;
+
+use Illuminate\Http\Response;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+use Symfony\Component\HttpKernel\Exception\HttpExceptionInterface;
+
+class TwoFactorAuthRequiredException extends HttpException implements HttpExceptionInterface
+{
+    /**
+     * TwoFactorAuthRequiredException constructor.
+     */
+    public function __construct(?\Throwable $previous = null)
+    {
+        parent::__construct(Response::HTTP_BAD_REQUEST, 'L’authentification à deux facteurs est requise sur ce compte pour accéder à ce point de terminaison.', $previous);
+    }
+}

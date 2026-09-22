@@ -74,7 +74,7 @@ const LoginContainer = ({ history }: RouteComponentProps) => {
             })}
         >
             {({ isSubmitting, setSubmitting, submitForm }) => (
-                <LoginFormContainer title={'Connexion au panel'} css={tw`w-full`}>
+                <LoginFormContainer title={'Connexion à Xaryon Studio'} css={tw`w-full`}>
                     <Field light type={'text'} label={'Identifiant ou adresse e-mail'} name={'username'} disabled={isSubmitting} />
                     <div css={tw`mt-6`}>
                         <Field light type={'password'} label={'Mot de passe'} name={'password'} disabled={isSubmitting} />

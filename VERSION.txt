@@ -2,7 +2,7 @@ PACK DE TRADUCTION FRANÇAISE — PTERODACTYL PANEL
 
 Version compatible : Pterodactyl Panel 1.15.1
 Langue : Français (fr-FR)
-Date du pack : 21 septembre 2026
+Date du pack : 22 septembre 2026
 
 Cette traduction est non officielle.
 

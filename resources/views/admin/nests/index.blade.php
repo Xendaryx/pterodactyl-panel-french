@@ -7,7 +7,7 @@
 @section('content-header')
     <h1>Nids<small>Tous les Nids actuellement disponibles sur ce système.</small></h1>
     <ol class="breadcrumb">
-        <li><a href="{{ route('admin.index') }}">Admin</a></li>
+        <li><a href="{{ route('admin.index') }}">Administration</a></li>
         <li class="active">Nids</li>
     </ol>
 @endsection

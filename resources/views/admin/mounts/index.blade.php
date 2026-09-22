@@ -8,7 +8,7 @@
 @section('content-header')
     <h1>Montages<small>Configurez et gérez les points de montage supplémentaires pour les serveurs.</small></h1>
     <ol class="breadcrumb">
-        <li><a href="{{ route('admin.index') }}">Admin</a></li>
+        <li><a href="{{ route('admin.index') }}">Administration</a></li>
         <li class="active">Montages</li>
     </ol>
 @endsection

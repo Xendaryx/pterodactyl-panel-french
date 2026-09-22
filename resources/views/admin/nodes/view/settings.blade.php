@@ -71,7 +71,7 @@
                         <div>
                             <input type="text" autocomplete="off" name="fqdn" class="form-control" value="{{ old('fqdn', $node->fqdn) }}" />
                         </div>
-                        <p class="text-muted"><small>Saisissez le nom de domaine (par exemple <code>node.example.com</code>) utilisé pour se connecter au daemon. Une adresse IP ne peut être utilisée que si SSL n’est pas activé pour ce nœud.
+                        <p class="text-muted"><small>Saisissez le nom de domaine (par exemple <code>node.xaryon-studio.fr</code>) utilisé pour se connecter au daemon. Une adresse IP ne peut être utilisée que si SSL n’est pas activé pour ce nœud.
                                 <a tabindex="0" data-toggle="popover" data-trigger="focus" title="Pourquoi ai-je besoin d’un FQDN ?" data-content="Pour sécuriser les communications entre votre serveur et ce nœud, nous utilisons SSL. Un certificat SSL ne peut pas être généré pour une adresse IP ; vous devez donc fournir un FQDN.">Pourquoi ?</a>
                             </small></p>
                     </div>
